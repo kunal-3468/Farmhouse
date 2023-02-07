@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+
+html {
+  height: 100%;
+}
+
+.para{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+}
+
+.head{
+  font-family: serif;
+}
+
+.bgimg {
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 500px;
+}
+
+.bgimg2 {
+  background-image: url("bg2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 500px;
+}
+
+.bgimg3 {
+  background-image: url("bg3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 500px;
+}
+
+a {
+  color: #f5e6bc;
+}
+
+.link-1 {
+  transition: 0.5s ease;
+  background: #f5e6bc;
+  color: #233007;
+  font-size: 18px;
+  text-decoration: none;
+  border-bottom: 4px solid #f5e6bc;
+  padding: 20px 0;
+  margin: 0 10px;
+}
+
+.link-1:hover {
+  border-bottom: 4px solid #233007;
+  padding: 6px 0;
+}
